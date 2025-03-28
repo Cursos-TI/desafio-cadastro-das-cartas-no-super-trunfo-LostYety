@@ -53,7 +53,7 @@ int main() {
     while (getchar() != '\n'); // Limpa o buffer após o código
 
     printf("Insira o nome da cidade 2:\n");
-    scanf("%49[^\n]", nome_cidade2); // Corrigido: removido o 's' extra
+    scanf("%49[^\n]", nome_cidade2); 
     printf("Nome de Cidade inserido: %s\n", nome_cidade2);
     while (getchar() != '\n');
 
@@ -78,6 +78,7 @@ int main() {
     printf("\nCIDADE 1:\n");
     printf("Código da cidade 1: %s\n", cod_cidade);
     printf("Nome da cidade 1: %s\n", nome_cidade);
+    printf("PIB: R$ %.2f\n", pib);
     printf("Tamanho da população 1: %d\n", populacao);
     printf("Tamanho da área 1: %.2f\n", area);
     printf("Quantidade de Pontos turísticos 1: %d\n", ponto_turistico);
@@ -85,8 +86,9 @@ int main() {
     printf("\nCIDADE 2:\n");
     printf("Código da cidade 2: %s\n", cod_cidade2);
     printf("Nome da cidade 2: %s\n", nome_cidade2);
+    printf("PIB 2: R$ %.2f\n", pib2);
     printf("Tamanho da população 2: %d\n", populacao2);
-    printf("Tamanho da área 2: %.2f\n", area2);
+    printf("Tamanho da área 2: %.2fkm²\n²", area2);
     printf("Quantidade de Pontos turísticos 2: %d\n", ponto_turistico2);
 
 
